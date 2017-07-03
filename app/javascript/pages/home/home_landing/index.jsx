@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Button, DatePicker } from 'antd'
 
 class HomeLanding extends React.Component{
   constructor(props) {
@@ -11,7 +12,12 @@ class HomeLanding extends React.Component{
     return (
       <div>
         Hello there! <br />
-        <Link to="error"> Error Page</Link>
+        <DatePicker /> <br />
+        <Link to="error"> 
+          <Button>
+            Error Page
+          </Button>
+        </Link>
       </div>
     )
   }

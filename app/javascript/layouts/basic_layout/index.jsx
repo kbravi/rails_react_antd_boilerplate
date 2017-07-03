@@ -1,4 +1,6 @@
 import React from 'react'
+import { Layout } from 'antd';
+const { Header, Footer, Content } = Layout;
 import Application from '../application'
 import './style.css'
 
@@ -11,18 +13,12 @@ class BasicLayout extends React.Component {
   render() {
     return (
       <Application>
-        <div className="basic-layout">
-          <div className="basic-header">
-            Header
-          </div>
-          <div className="basic-content">
-            { this.props.children }
-          </div>
-          <div className="basic-footer">
-            Footer
-          </div>
-        </div>
-      </Application>
+        <Layout className="basic-layout">
+          <Header className="basic-header">Header</Header>
+          <Content className="basic-content">{ this.props.children }</Content>
+          <Footer className="basic-footer">Footer</Footer>
+        </Layout>
+      </Application>      
     );
   }
 }

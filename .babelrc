@@ -22,6 +22,12 @@
       }
     ],
     [
+      "import",
+      {
+        "libraryName": "antd", "style": true
+      }
+    ],
+    [
       "module-resolver",
       {
         "root": ["./app"],
