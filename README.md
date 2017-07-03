@@ -37,12 +37,12 @@ brew install yarn
 ```
 brew install postgreql
 ```
-#### 5.Create new Rails Application with webpacker
+#### 5. Create new Rails Application with webpacker
 ```
  rails new rails_react_boilerplate --webpack=react --database=postgresql
  cd rails_react_boilerplate
 ```
-#### 6.Set ruby version for the app
+#### 6. Set ruby version for the app
 ```
   echo '2.4.1' > .ruby-version
 ```
@@ -91,7 +91,7 @@ Create `bin/server` file that can be used to run both servers
 bundle install
 foreman start -f Procfile.dev -p 3000
 ```
-#### 9.Update bin/setup for easier setup
+#### 9. Update bin/setup for easier setup
 Check out the [setup file](./bin/setup)
 #### 10. Disable ExtractTextPlugin in development for hot loading
 To enable hot loading with Styles, we need to disable ExtractTextPlugin
@@ -139,7 +139,7 @@ It is good practice to not render react components to body, so we add a div as a
 #root{ height: 100%; }
 #root > [data-reactroot] { height: 100% }
 ```
-#### 13.SAMPLES
+#### 13. SAMPLES
 Created some sample layouts, pages, and packs that will be used in home/index view. Note that since we don't use ExtractTextPlugin in sass loader in development environment, webpack will not emit a stylesheet.
 ```
 <%= javascript_pack_tag 'home' %>
@@ -175,4 +175,3 @@ Just hop on to http://localhost:3000
 ### LICENCE
 MIT
 
-After setu
