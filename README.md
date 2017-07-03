@@ -172,6 +172,6 @@ Check out other files in the app/javascript directory to find a home page layout
 Just hop on to http://localhost:3000
 
 
-### LICENCE
+### LICENSE
 MIT
 
