@@ -1,0 +1,4 @@
+.basic-layout { min-height: 100%; }
+.basic-header { background: gray; }
+.basic-content { background: white; }
+.basic-footer { background: lightgray; }
