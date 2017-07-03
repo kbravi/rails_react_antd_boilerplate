@@ -13,7 +13,7 @@ This is a basic setup that works out of the box.
 
 Out of the box
 -------------
-Clone this project and run `bin/setup` The setup will throw errors if dependencies are missing. Just install them and run again.
+Clone this project and run `bin/setup` The setup will throw errors if dependencies are missing. Just install them and run again. If you'd like to rename this application, just use your IDE to find all occurrences 'rails_react_boilerplate' and 'RailsReactBoilerplate' and give a new name - all before your run `bin/setup`
 
 -------------
 
@@ -165,7 +165,7 @@ class Application extends React.Component {
 
 export default Application
 ```
-Check out other files in the app/javascript directory to find a home page layout, a sample error page (that imports image from app/assets).
+Check out other files in the app/javascript directory to find a home page layout, a sample error page (that imports image from app/assets), etc.
 
 ----------
 
